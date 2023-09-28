@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main class="container-fluid">
+    <!-- SECTION HEROES -->
+    <div class="row p-5">
+      <div class="col-6 col-md-3 p-3">
+        <div class="card bg-dark border p-3">
+          <span class="d-flex justify-content-between ">
+            <p>LINK</p>
+            <i class="fs-1 mdi mdi-account"></i>
+          </span>
+          <span class="d-flex justify-content-between ">
+            <p>HP: </p>
+            <p id="linkHP">100</p>
+          </span>
+          <span class="d-flex justify-content-between">
+            <p>GOLD: </p>
+            <p id="linkGOLD">100</p>
+          </span>
+          <span class="d-flex justify-content-between">
+            <p>LVL: </p>
+            <p id="linkLVL">100</p>
+          </span>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 p-3">
+        <div class="card bg-dark border p-3">
+          <span class="d-flex justify-content-between ">
+            <p>ZELDA</p>
+            <i class="fs-1 mdi mdi-account"></i>
+          </span>
+          <span class="d-flex justify-content-between ">
+            <p>HP: </p>
+            <p id="zeldaHP">100</p>
+          </span>
+          <span class="d-flex justify-content-between">
+            <p>GOLD: </p>
+            <p id="zeldaGOLD">100</p>
+          </span>
+          <span class="d-flex justify-content-between">
+            <p>LVL: </p>
+            <p id="zeldaLVL">100</p>
+          </span>
+        </div>
+      </div>
+
+    </div>
+    <!-- !SECTION HEROES -->
+
+    <!-- SECTION BOSS GUY -->
+    <div class="row p-3 justify-content-center">
+      <div class="col-12 col-md-8 p-3">
+        <div onclick="attackBoss()" class="border text-center">
+          <p id="bossHealth">100</p>
+          <p class="boss">GANONDORF</p>
+          <img src="Ganondorf.png" alt="BOSS PIC">
+        </div>
+      </div>
+    </div>
+    <!-- !SECTION BOSS GUY -->
+
+    <!-- SECTION SHOP & RESET -->
+    <div class="row justify-content-between p-5">
+      <div class="col-12 col-md-5 card border bg-dark">SHOP</div>
+      <div class="col-auto"><button class="btn btn-dark text-danger rounded">RESET</button></div>
+    </div>
+    <!-- !SECTION SHOP & RESET -->
+  </main>
+
+  <!-- JS linkage -->
+  <script src="script.js"></script>
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
