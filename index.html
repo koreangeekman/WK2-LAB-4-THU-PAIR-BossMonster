@@ -68,25 +68,58 @@
 
     <!-- SECTION BOSS GUY -->
     <div class="row p-3 justify-content-center">
-      <div class="col-12 col-md-8 p-3">
-        <div onclick="attackBoss()" class="border text-center">
+      <div class="col-12 col-md-7 p-3">
+        <span class="d-flex justify-content-center boss p-3">
+          <p>REWARD: </p>
+          <div id="bossReward">10</div>
+        </span>
+        <div onclick="attackBoss()" class="border text-center bossCard">
           <p id="bossHealth">100</p>
           <p class="boss">GANONDORF</p>
           <img src="Ganondorf.png" alt="BOSS PIC">
         </div>
+
+        <div class="d-flex justify-content-evenly boss p-3">
+          <span class="d-flex justify-content-around w-50 ">
+            <p>Boss Level: </p>
+            <p id="bossLevel">1</p>
+          </span>
+          <span class="d-flex justify-content-around w-50">
+            <p>Boss Deaths: </p>
+            <p id="bossKills">0</p>
+          </span>
+        </div>
+
       </div>
     </div>
     <!-- !SECTION BOSS GUY -->
 
     <!-- SECTION SHOP & RESET -->
-    <div class="row justify-content-between p-5">
-      <div class="col-12 col-md-5 card border bg-dark">SHOP</div>
+    <div class="row justify-content-between p-5 ">
+      <div class="col-12 col-md-5 card border bg-dark p-3">
+        <span onclick="healButton()" class="d-flex btn text-white justify-content-between">
+          <p>Buy Potion</p>
+          <p>20 G</p>
+
+        </span>
+        <span class="d-flex btn text-white justify-content-between">
+          <p>Buy Tingle</p>
+          <p>1 G</p>
+
+        </span>
+        <span class="d-flex btn text-white justify-content-between">
+          <p>Buy Epona</p>
+          <p>500 G</p>
+
+        </span>
+      </div>
       <div class="col-auto"><button class="btn btn-dark text-danger rounded">RESET</button></div>
     </div>
     <!-- !SECTION SHOP & RESET -->
   </main>
 
   <!-- JS linkage -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script src="script.js"></script>
 
   <!-- Bootstrap JavaScript Libraries -->

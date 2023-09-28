@@ -1,8 +1,23 @@
 body {
-  background-color: #123456;
+  background-image: url(https://images.unsplash.com/photo-1485465053475-dd55ed3894b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+  background-position: center;
+  object-fit: cover;
+  /* background-color: #123456; */
   color: white;
+  user-select: none
 }
 
 p {
   margin: 0;
+}
+
+.bossCard {
+  background-image: url(https://ssb.wiki.gallery/images/0/03/Final_Destination_Melee.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #123456;
+}
+
+.boss {
+  font-size: 2rem;
 }
