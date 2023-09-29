@@ -11,6 +11,10 @@ p {
   margin: 0;
 }
 
+.bgTransparency {
+  background-color: #123456b0;
+}
+
 .bossCard {
   background-image: url(https://ssb.wiki.gallery/images/0/03/Final_Destination_Melee.png);
   background-repeat: no-repeat;
